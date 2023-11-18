@@ -1,0 +1,13 @@
+.base{
+    position: relative;
+    width: 30%;
+    height: 70%;
+    color: black;
+}
+#buttom1{
+    position: relative;
+    width: 15%;
+    height: 5%;
+    background-color: rgb(34, 44, 44);
+    color: white;
+}
