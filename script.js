@@ -1,17 +1,10 @@
 
 document.getElementById('meuFormulario').addEventListener('submit', function(e) {
    e.preventDefault();
-const caminhoDoArquivo ='Pasta 5.xlsx';
 
    var arquivoInput = document.getElementById('arquivoExcel');
-   var arquivo1;
-if (arquivoInput.files.length > 0) {
-      arquivo1 = arquivoInput.files[0];
-   } else {
-      // Se o usuário não selecionou um arquivo,  arquivo padrão;
-      arquivo1 = caminhoDoArquivo;
-   }
-var arquivo=arquivo1.files[0];
+   var arquivo = arquivoInput.files[0];
+
    var leitor = new FileReader();
 
    leitor.onload = function(e) {
