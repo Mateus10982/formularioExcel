@@ -1,0 +1,46 @@
+/* Estilo para o formulário */
+#meuFormulario {
+    width: 300px; 
+    margin: 50px auto; 
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.897);
+ }
+ 
+ /* Estilo para os rótulos */
+ label {
+    display: block;
+    margin-bottom: 10px;
+ }
+ 
+ body{
+    background-color: #001e3f;
+ }
+ /* Estilo para os campos de entrada */
+ input[type="text"] {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+ }
+ 
+ /* Estilo para o botão de envio */
+ input[type="submit"] {
+    width: 100%; 
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; 
+    color: #fff; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+ }
+ 
+ input[type="submit"]:hover {
+    background-color: #0056b3; 
+ }
+ 
