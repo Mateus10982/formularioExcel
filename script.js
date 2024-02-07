@@ -1,7 +1,6 @@
 
 document.getElementById('meuFormulario').addEventListener('submit', function(e) {
    e.preventDefault();
-const fs = require('fs');
 const caminhoDoArquivo = 'Pasta 5.xlsx';
 
    var arquivoInput = document.getElementById('arquivoExcel');
@@ -10,7 +9,7 @@ if (arquivoInput.files.length > 0) {
       arquivo = arquivoInput.files[0];
    } else {
       // Se o usuário não selecionou um arquivo,  arquivo padrão;
-      arquivo = 'Pasta 5.xlsx';
+      arquivo = caminhoDoArquivo;
    }
 
    var leitor = new FileReader();
